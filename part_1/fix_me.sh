@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Reading data from the user's input
-echo 'Enter 1st Value (a):'
+echo 'Enter 1st Value a:'
 read a
-echo 'Enter 2nd Value (b): '
+echo 'Enter 2nd Value b:'
 read b
 
 add=$((a + b))
@@ -17,7 +17,7 @@ mul=$((a * b))
 echo Multiplication of a and b are $mul
 
 div=$((a / b))
-echo division of a and b are $div
+echo Division of a and b are $div
 
 mod=$((a % b))
 echo Modulus of a and b are $mod
