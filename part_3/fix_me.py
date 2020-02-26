@@ -1,4 +1,4 @@
-#! /bin/bash/python3
+#!/bin/python3
 
 # Reading data from the user's input
 a = input("Enter a : ")
