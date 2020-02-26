@@ -28,6 +28,8 @@ echo Increment operator when applied on "a" results into a = $a
 ((--b))
 echo Decrement operator when applied on "b" results into b = $b
 
+echo 'Provide a value for c:'
+read c
+echo "What was the default value of c if its value is now $c?"
 ((--c))
-echo What was the default value \ of c if its value is now $c\?
 echo $c
