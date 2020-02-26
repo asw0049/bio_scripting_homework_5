@@ -16,7 +16,7 @@ print("You entered", b, "which is a", type(b))
 #######################################################################
 
 print("What is", a, "now?", type(a))
-print("What is", b, "now?", type(a))
+print("What is", b, "now?", type(b))
 
 
 total = a + b
